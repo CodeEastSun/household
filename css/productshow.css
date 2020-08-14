@@ -1,0 +1,53 @@
+/* 产品详情 */
+.main{
+    border: 1px solid #ededed;
+}
+
+.main img{
+    margin: 47px 53px 80px 95px;
+}
+
+/* 产品标题和价格 */
+.main .box1{
+    font-size: 20px;
+    color: #3f3e45;
+    margin: 50px 100px 0px;
+}
+.main .box1 span:first-child{
+    border-bottom: 2px solid #ededed;
+}
+
+.main .box1 span:nth-child(2){
+    color: #bbb8b5;
+
+}
+
+/* 产品具体描述 */
+.main .box2{
+    width: 900px;
+    height: 36px;
+    line-height: 36px;
+    text-indent: 5px;
+    font-size: 14px;
+    color: #a5a5b1;
+    background: #f5f5f5;
+} 
+
+.main .box3{
+    width: 900px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #3f3e45;
+    text-indent: 2em;
+    margin: 15px 0 20px;
+}
+
+/* 上一页下一页 */
+.main .box3 p:first-child{
+    margin-top: 20px;
+}
+
+.main .box3 p a{
+    font-size: 16px;
+    color: #a5a5b1;
+}

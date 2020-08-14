@@ -1,0 +1,21 @@
+.main .content{
+    border-bottom: 2px solid #eeeeee;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.main .content h3{
+    font-size: 16px;
+    color: #606369;
+    font-weight: bold;
+}
+.main .content h3 a{
+    color: #606369;
+}
+.main .content span{
+    color: #a5a5b1;
+}
+
+.main .content p{
+    color: #818388;
+}

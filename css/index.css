@@ -1,0 +1,195 @@
+/* 首页css文件 */
+
+/* banner */
+#banner {
+    min-width: 1200px;
+    height: 550px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+#slider {
+    list-style: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#slider li {
+    float: left;
+}
+
+#banner .innerbox {
+    width: 360px;
+    height: 200px;
+    background: url("../imgs/border.png");
+    padding: 10px 45px 0px;
+    margin: 0 auto;
+    position: absolute;
+    left: 600px;
+    top: 180px;
+    
+}
+
+#banner .innerbox h1 {
+    font-size: 42px;
+    line-height: 88px;
+
+}
+
+#banner .innerbox p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+/* 特色 */
+#feature .items {
+    width: 320px;
+    height: 182px;
+    padding: 28px 40px 0px;
+
+}
+
+#feature .items h1 {
+    font-size: 20px;
+    line-height: 60px;
+}
+
+#feature .items p {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+/* 产品 */
+#products {
+    margin-top: 80px;
+}
+
+#products .show {
+    margin-top: 40px;
+}
+
+/* 产品展示左边的内容 */
+#products .lshow {
+    width: 600px;
+    height: 580px;
+}
+
+#products .lshow .box1 {
+    width: 270px;
+    height: 275px;
+    float: left;
+    margin: 0px 30px 30px 0px;
+    position: relative;
+}
+
+#products .lshow div img {
+    width: 270px;
+    height: 275px;
+}
+
+/* 产品展示右边的内容 */
+#products .rshow {
+    width: 600px;
+    height: 580px;
+    position: relative;
+}
+
+
+#products .rshow img {
+    width: 600px;
+    height: 580px;
+}
+
+/* 右边蒙版层的read more */
+#products .rshow a {
+    display: inline-block;
+    width: 138px;
+    height: 46px;
+    border: 1px solid black;
+    border-radius: 23px;
+    line-height: 46px;
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+/* 蒙版层点击父级显示蒙版层 */
+#products .rshow:hover .mask,
+#products .box1:hover .mask {
+    display: block;
+}
+
+
+/* 关于我们 */
+#aboutus {
+    padding: 65px 0px 70px;
+    background: url("../imgs/banner3.jpg") no-repeat center;
+}
+
+#aboutus .innerbox {
+    width: 680px;
+    margin: 0 auto;
+}
+
+#aboutus h3 {
+    font-size: 30px;
+    height: 60px;
+    line-height: 60px;
+    background: url("../imgs/nav_bg02.png") no-repeat center;
+}
+
+#aboutus p {
+    line-height: 36px;
+    color: #6b6b6b;
+}
+
+#aboutus a {
+    display: inline-block;
+    width: 154px;
+    height: 44px;
+    line-height: 44px;
+    background: #25bbce;
+    border-radius: 22px;
+}
+
+/* 新闻动态 */
+#news .newsbox>div:not(:last-child) {
+    margin-right: 30px;
+}
+
+#news .newsbox ul {
+    width: 380px;
+}
+
+#news .newsbox li {
+    height: 34px;
+    width: 380px;
+    line-height: 34px;
+    font-size: 14px;
+    border-bottom: 1px solid #dddddf;
+}
+
+#news .newsbox li a:first-child {
+    color: #15bded;
+    float: left;
+}
+
+#news .newsbox li a:nth-child(2) {
+    color: #6a6a6a;
+    /* 新闻内容超出隐藏 */
+    display: inline-block;
+    width: 240px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+#news .newsbox li span {
+    color: #a5a5b1;
+    float: right;
+    font-size: 12px;
+}
+
+

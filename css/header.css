@@ -1,0 +1,68 @@
+/* 顶部 */
+#header .top {
+    min-width: 1200px;
+    height: 45px;
+    line-height: 45px;
+}
+
+/* 导航 */
+#header .nav {
+    height: 50px;
+    line-height: 50px;
+}
+
+#header .logo {
+    width: 150px;
+    height: 50px;
+}
+
+#header .nav>li {
+    float: left;
+    margin: 0 30px;
+    position: relative;
+
+}
+
+/* 二级子菜单制作 */
+#header .nav .submenu {
+    width: 80px;
+    background-color: skyblue;
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    display: none;
+    z-index: 2;
+}
+
+/* 除了最后的子菜单其他的子菜单有下边界线 */
+#header .submenu>li:not(:last-child) {
+    border-bottom: 1px dashed #252525;
+}
+
+/* 鼠标悬停在父菜单上显示子菜单 */
+#header .nav>li:hover .submenu {
+    display: block;
+}
+
+/* 选中子菜单某一项颜色改变 */
+#header .nav .submenu>li:hover {
+    background-color: turquoise;
+}
+
+/* 子菜单颜色白色 */
+#header .nav>li>.submenu>li>a {
+    color: white;
+}
+
+/* 导航菜单标签颜色 */
+#header .nav>li>a {
+    font-size: 16px;
+    color: #252525;
+}
+
+/* 交集选择器效果 */
+#header .nav>li.active {
+    background: url("../imgs/nav_move.jpg") no-repeat center;
+}

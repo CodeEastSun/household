@@ -1,0 +1,72 @@
+#footer {
+    margin-top: 68px;
+    background: #141414;
+    padding: 67px 0px 30px;
+}
+
+/* 页脚左边联系 */
+#footer .contact {
+    width: 440px;
+    margin-right: 60px;
+}
+
+#footer .contact img {
+    width: 156px;
+    height: 47px;
+}
+
+#footer .contact p {
+    line-height: 44px;
+    padding-left: 30px;
+    color: #818388;
+    background: url("../imgs/icon.jpg") no-repeat left;
+
+}
+
+/* 页脚中间快速链接 */
+#footer .quicklink {
+    width: 320px;
+    line-height: 42px;
+
+}
+
+#footer .quicklink li {
+    width: 160px;
+    line-height: 42px;
+    float: left;
+}
+
+#footer .quicklink li a {
+    color: #807f88;
+}
+
+/* 页脚右边搜索框 */
+#footer .search {
+    width: 320px;
+}
+
+#footer form input {
+    height: 48px;
+    border: none;
+    /* 外轮廓取消 */
+    outline: none;
+}
+
+#footer form input:first-child {
+    width: 220px;
+    text-indent: 8px;
+    background: #333333;
+
+}
+
+#footer form input:nth-child(2) {
+    width: 100px;
+    color: white;
+    background: #3aa27f;
+}
+
+/* 版权我们 */
+#footer .copyright {
+    line-height: 76px;
+
+}

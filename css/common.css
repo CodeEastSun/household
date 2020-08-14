@@ -1,0 +1,279 @@
+/* 公用样式表：其他页面也可以使用的样式
+    注意：所有选择器都不要从公用样式上通过 */
+
+/* 版心: 用于固定网页主要内容的宽度，并且水平居中 */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* 设置浮动 */
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/* 清除浮动 */
+/* 清除盒子与盒子浮动 */
+.clear {
+    clear: both;
+}
+
+/* 清除固定结构的浮动 */
+.clearfix:after {
+    content: '';
+    height: 0;
+    display: block;
+    clear: both;
+}
+
+/* 文本居中 */
+.cent {
+    text-align: center;
+}
+
+.c80 {
+    color: #807f88;
+}
+.c5b{
+    color: #5b5c5e;
+}
+
+/* 字体相关属性 */
+.cfff {
+    color: #fff;
+}
+.cred{
+    color: red;
+}
+.font14 {
+    font-size: 14px;
+}
+
+.font16 {
+    font-size: 16px;
+}
+
+.font18 {
+    font-size: 18px;
+}
+
+.font20 {
+    font-size: 20px;
+}
+
+.font22 {
+    font-size: 22px;
+}
+
+/* magin相关 */
+.mr20 {
+    margin-right: 20px;
+}
+
+.mt12 {
+    margin-top: 12px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mt22 {
+    margin-top: 22px;
+}
+
+.mt24 {
+    margin-top: 24px;
+}
+
+.mt28 {
+    margin-top: 28px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.mt35 {
+    margin-top: 35px;
+}
+
+.mt42 {
+    margin-top: 42px;
+}
+
+.mt48 {
+    margin-top: 48px;
+}
+
+.mt50 {
+    margin-top: 50px;
+}
+
+.mt80 {
+    margin-top: 80px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mb28 {
+    margin-bottom: 28px;
+}
+
+.mr86 {
+    margin-right: 86px;
+}
+
+/* padding相关 */
+.ptb25 {
+    padding: 25px 0;
+}
+
+/* 背景相关 */
+.bgc25 {
+    background-color: #252525;
+}
+
+.bgc0 {
+    background-color: #000000;
+}
+
+.bg01 {
+    background: url("../imgs/01.jpg");
+}
+
+.bg02 {
+    background: url("../imgs/02.jpg");
+}
+
+.bg03 {
+    background: url("../imgs/03.jpg");
+}
+
+
+/* 公用标题 */
+.title {
+    line-height: 76px;
+    font-size: 28px;
+    font-weight: normal;
+    background: url("../imgs/nav_bg02.png") no-repeat left bottom;
+}
+
+.title span {
+    font-size: 22px;
+    color: #bbb8b5;
+    ;
+}
+
+/* 公用小标题 */
+.stitle {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: white;
+    line-height: 60px;
+    font-weight: normal;
+    background: url("../imgs/line_bg.png") no-repeat;
+}
+
+/* 蒙版层 */
+.mask {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.mask .maskbox {
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    font-size: 22px;
+    color: #15bded;
+    margin-top: -40px;
+
+}
+
+.mask .maskbox h3 {
+    font-weight: normal;
+    font-size: 26px;
+    color: #252525;
+}
+
+/* 精灵图 */
+.icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("../imgs/fenxiang.png") no-repeat;
+    vertical-align: middle;
+}
+
+.icon-wb {
+    background-position: -2px 0px;
+}
+
+.icon-wx {
+    background-position: -43px 0px;
+}
+
+
+/* 其余页面公用样式 */
+/* bannner */
+.banner img{
+    width: 100%;
+}
+
+/* 当前位置 */
+.location{
+    border-bottom: 1px solid #f3f3f3;
+    line-height: 50px;
+    color: #818388;
+}
+.location a{
+    color: #818388;
+}
+
+/* 侧栏 */
+.aside ul{
+    margin: 20px 0;
+}
+ .aside ul li{
+    width: 260px;
+    height: 48px;
+    background: #f2f2f2;
+    margin-bottom: 2px;
+    line-height: 48px; 
+    font-weight: bold; 
+}
+.aside ul li a{
+    color: #252525;
+}
+
+/* 其他页面公用标题 */
+.aside h2{
+    font-size: 20px;
+    line-height: 68px;
+    background: url("../imgs/nav_bg02.png") no-repeat;
+}
+
+/* 列表下面的图片 */
+ .aside img{
+    width: 260px;
+}
+
+.main{
+    width: 900px;
+    padding: 7px;
+    margin-top: 80px;   
+}

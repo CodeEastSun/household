@@ -1,0 +1,28 @@
+#share{
+    width: 50px;
+    height: 150px;
+    background: skyblue;
+    position: fixed;
+    top: 400px;
+    left: -50px;
+    display: none;
+    border-radius: 10px;
+}
+
+#share a{
+    margin: 8px;
+    display: inline-block;
+    
+}
+
+#sharetitle{
+    width: 20px;
+    padding: 4px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    background:#21bcd8;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}

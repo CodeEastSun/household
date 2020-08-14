@@ -1,0 +1,42 @@
+/* 产品列表 */
+.main ul li{
+    width: 276px;
+    height: 310px;
+    border: 1px solid #f3f3f3;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0px 20px 20px 0px;
+    float: left;
+}
+.main ul li a{
+    color: black;
+}
+
+.main ul li img{
+    width: 200px;
+    height: 265px;   
+}
+.main li p span{
+    color: #a5a5b1;
+}
+
+/* 下一页 */
+.next a{
+    display: inline-block;
+    width: 15px;
+    height: 20px;
+    border: 2px solid #e3e3e3;
+    text-align: center;
+    line-height: 20px;
+    color: #606369;
+
+}
+.next a:hover{
+    color: red;
+}
+.next a:nth-child(6){
+    width: 50px;
+}
+.next a:last-child{
+    width: 36px;
+}
